@@ -9,7 +9,7 @@ int main() {
     for(int i = 0; i < size; i++) {
         std::cout << "Enter a food you like # or 'q' to quit" << i + 1 << ": ";
         std::getline(std::cin >> std::ws, temp);
-
+        
         if(temp == "q") {
             break;
         }
